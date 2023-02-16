@@ -13,5 +13,6 @@
     "url": "https://github.com/okpisal/jsprojdemo.git"
   },
   "author": "ok",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": { "test": ">=0.6.0" }
 }
