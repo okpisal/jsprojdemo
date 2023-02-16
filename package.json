@@ -1,0 +1,17 @@
+{
+  "name": "devopsjsproj",
+  "version": "1.0.0",
+  "description": "devops project js implementaion",
+ 
+  "main": "main.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/okpisal/jsprojdemo.git"
+  },
+  "author": "ok",
+  "license": "ISC"
+}
