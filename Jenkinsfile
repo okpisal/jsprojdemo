@@ -1,4 +1,5 @@
 node {
+    stages {
     def app
 
     stage('Clone repository') {
@@ -33,5 +34,6 @@ node {
             app.push("latest")
         }
         
+    }
     }
 }
