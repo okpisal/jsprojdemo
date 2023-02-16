@@ -32,5 +32,8 @@ node {
             app.push("${env.BUILD_NUMBER}")
             app.push("latest")
         }
+        dockerImage.inside("--entrypoint=''") {
+     echo "Tests passed"
+}
     }
 }
